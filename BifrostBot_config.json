@@ -1,0 +1,21 @@
+{
+	"bot_name": "Bifrost Bot",
+	"bot_version": "1.2.1",
+	"bot_description": "IRC - Telegram bridge",
+	"telegram_params": {
+		"admins": [ 67026917 ],
+		"timeout": 5,
+		"timeout_first": 10,
+		"token": "such:sicret-key",
+		"telegram_group_for_irc": {
+			"-0": "#channel"
+		}
+	},
+	"irc_params": {
+		"timeout": 5,
+		"timeout_first": 10,
+		"irc_channels_for_telegram": {
+			"#channel": -0
+		}
+	}
+}
